@@ -1,6 +1,10 @@
-const _ = require('lodash');
+'use strict';
 
-const sum = (...numbers) => numbers.reduce((accum, currentNumber) => accum + currentNumber, 0);
+import _ from 'lodash';
+
+const sum = (...numbers) => {
+    return numbers.reduce((accum, currentNumber) => accum + currentNumber, 0);
+};
 
 console.log(sum(1, 2, 3, 4, 5, 6, 7));
 
