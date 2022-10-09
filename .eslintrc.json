@@ -16,7 +16,6 @@
         "quotes": ["error", "single"],
         "semi": ["error", "always"],
         "eqeqeq": "error",
-        "capitalized-comments": "error",
         "curly": "error",
         "arrow-body-style": ["error", "always"]
     }
